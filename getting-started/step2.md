@@ -8,4 +8,8 @@ This user interface will allow you to everything you can do via the API. This in
 1. System Settings
 1. Access Logs
 
-![Management UI](./assets/curiefense-ui-publish-config.png)
+For now let's just look at the [Access Logs](https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/accesslog)
+
+In another 
+
+![Access Log](./assets/curiefense-ui-access-log.jpg)
