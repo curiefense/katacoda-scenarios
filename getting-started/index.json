@@ -1,6 +1,6 @@
 {
   "title": "Getting Started",
-  "description": "Quickly deploy Curiefense, set up some basic security policies, and test them.",
+  "description": "Quickly deploy Curiefense, explore the Management UI, and view data in Grafana.",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
