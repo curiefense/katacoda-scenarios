@@ -53,6 +53,6 @@
       ]
   },
   "backend": {
-    "imageid": "ubuntu:2004"
+    "imageid": "curiefense-base2004"
   }
 }
