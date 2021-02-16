@@ -1,0 +1,1 @@
+cd curiefense/deploy/compose/ && docker-compose up

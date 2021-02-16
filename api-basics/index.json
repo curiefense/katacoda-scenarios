@@ -1,0 +1,42 @@
+{
+  "title": "API Basics",
+  "description": "Quick introduction to the Curiefense API, namespaces, endpoints, and examples.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "courseData": "background.sh"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+        {"name": "Management UI", "port": 30080},
+        {"name": "Grafana", "port": 30300},
+        {"name": "Swagger", "port": 30000},
+        {"name": "Echo Web Server", "port": 30081}
+      ]
+  },
+  "backend": {
+    "imageid": "curiefense-base2004"
+  }
+}
