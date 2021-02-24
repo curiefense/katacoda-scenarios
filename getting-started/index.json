@@ -39,9 +39,7 @@
     "showdashboard": true,
     "dashboards": [
         {"name": "Management UI", "port": 30080},
-        {"name": "Grafana", "port": 30300},
-        {"name": "Swagger", "port": 30000},
-        {"name": "Echo Web Server", "port": 30081}
+        {"name": "Grafana", "port": 30300}
       ]
   },
   "backend": {
