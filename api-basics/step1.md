@@ -15,6 +15,6 @@ Curiefense's data is stored within:
 
 Try GETting the detailed list of existing configurations:
 
-`curl -XGET https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/api/v1/configs/`{{execute}}
+`curl -XGET https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/api/v1/configs/ | jq`{{execute}}
 
 Congrats, you now have a terminal full of JSON! Lets continue to Step 2. ⤵️
