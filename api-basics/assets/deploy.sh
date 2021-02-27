@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /root/
-sleep 30
+sleep 40
