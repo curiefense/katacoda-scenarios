@@ -39,3 +39,5 @@ show_progress()
   echo ""
   echo "Configured"
 }
+
+show_progress
