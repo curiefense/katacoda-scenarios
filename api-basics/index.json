@@ -5,8 +5,20 @@
   "time": "10 minutes",
   "private": true,
   "details": {
-    "steps": [
-      {
+    "assets": {
+      "host01": [{
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "deploy.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    },
+    "steps": [{
         "title": "Step 1",
         "text": "step1.md",
         "courseData": "background.sh"
@@ -30,9 +42,10 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboards": [
-      {"name": "Swagger", "href": "https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/api/v1/"}
-      ]
+    "dashboards": [{
+      "name": "Swagger",
+      "href": "https://[[HOST_SUBDOMAIN]]-30000-[[KATACODA_HOST]].environments.katacoda.com/api/v1/"
+    }]
   },
   "backend": {
     "imageid": "curiefense-base2004"
