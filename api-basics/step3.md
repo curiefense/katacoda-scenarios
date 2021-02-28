@@ -1,3 +1,0 @@
-## cURL Examples
-
-foo

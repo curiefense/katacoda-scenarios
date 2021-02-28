@@ -2,8 +2,7 @@
 
 **In this lesson we will cover the API:**
 
-* Introduction
 * Namespaces and Endpoints
-* cURL Examples
+* Swagger
 
 See you at the finish line. 🏁
