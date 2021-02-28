@@ -3,7 +3,7 @@
   "description": "Quick introduction to the Curiefense API, namespaces, endpoints, and examples.",
   "difficulty": "Intermediate",
   "time": "10 minutes",
-  "private": true,
+  "private": false,
   "details": {
     "assets": {
       "host01": [{
