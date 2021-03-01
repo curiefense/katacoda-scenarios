@@ -4,7 +4,7 @@
 
 * Deployment
 * Curiefense Management UI
-    * Access Log
+    * Search
 * Grafana Dashboards
     * Traffic Overview Dashboard
     * Top Activities Dashboard

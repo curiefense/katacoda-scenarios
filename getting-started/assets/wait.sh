@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Starting"
+  echo -n "⏳ Starting"
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -21,8 +21,8 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
-  echo -n "Configuring"
+  echo "✔️ Started"
+  echo -n "⚙️ Configuring"
   while true; do 
     sudo grep -i "done" /root/katacoda-background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
@@ -37,7 +37,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Configured 🎉"
+  echo "Configured 🎉 Start Learning!"
 }
 
 show_progress
