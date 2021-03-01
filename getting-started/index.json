@@ -21,7 +21,8 @@
       {
         "title": "Step 1",
         "text": "step1.md",
-        "courseData": "background.sh"
+        "courseData": "background.sh",
+        "code": "foreground.sh"
       },
       {
         "title": "Step 2",
