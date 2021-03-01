@@ -4,6 +4,19 @@
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
+    "assets": {
+      "host01": [{
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "deploy.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
