@@ -1,6 +1,6 @@
 {
   "title": "Getting Started with Tag Rules",
-  "description": "Tag Rules lists attach tags to requests and sessions based on various criteria, from matching headers, cookies, arguments or URLs to traffic sources such as geolocations, IP addresses, CIDRs, and AS numbers. Subsequently, the tags are then used to make decisions about how the requests are handled.",
+  "description": "Tag Rules lists attach tags to requests and sessions based on various criteria, from matching headers, cookies, arguments or URLs to traffic sources.",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "private": true,
