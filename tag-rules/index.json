@@ -1,0 +1,63 @@
+{
+  "title": "Getting Started with Tag Rules",
+  "description": "Tag Rules lists attach tags to requests and sessions based on various criteria, from matching headers, cookies, arguments or URLs to traffic sources such as geolocations, IP addresses, CIDRs, and AS numbers. Subsequently, the tags are then used to make decisions about how the requests are handled.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "private": true,
+  "details": {
+    "assets": {
+      "host01": [{
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "deploy.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md",
+        "courseData": "background.sh",
+        "code": "foreground.sh"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "showdashboard": true,
+    "dashboards": [
+        {"name": "Management UI", "port": 30080},
+        {"name": "Grafana", "port": 30300}
+      ]
+  },
+  "backend": {
+    "imageid": "curiefense-base2004"
+  }
+}
