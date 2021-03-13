@@ -24,6 +24,10 @@ Now save the new configuration:
 
 ![New Tag: Save](./assets/save-tag-rule.jpg)
 
+And then publish it by going to "Publish Changes" in the left sidebar, and selecting Publish configuration:
+
+![New Tag: Save](./assets/publish-configuration.jpg)
+
 Now it is time to test our configuration. Let's run the following curl commands:
 
 `curl https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/no/header`{{execute}}
