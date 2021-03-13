@@ -14,7 +14,7 @@ Next, in the Tags text box on the left, enter the value `trusted`.
 
 Then, at the top of the (currently empty) list to the right, add a new entry by selecting the `Create New Section` button. An empty rule will appear.
 
-In the left pulldown, select Header. Enter `foo` for its name, and `bar` for its value. Then select "Add".
+In the left pulldown, select **Header**. Enter `foo` for its name, and `bar` for its value. Then select **"Add"**.
 
 ![New Tag: Add](./assets/foo-bar-add.jpg)
 
@@ -24,7 +24,7 @@ Now save the new configuration:
 
 ![New Tag: Save](./assets/save-tag-rule.jpg)
 
-And then publish it by going to "Publish Changes" in the left sidebar, and selecting Publish configuration:
+And then publish it by going to **"Publish Changes"** in the left sidebar, and selecting Publish configuration:
 
 ![New Tag: Save](./assets/publish-configuration.jpg)
 
