@@ -53,8 +53,7 @@
     "uilayout": "terminal-iframe",
     "showdashboard": true,
     "dashboards": [
-        {"name": "Management UI", "port": 30080},
-        {"name": "Grafana", "port": 30300}
+        {"name": "Management UI", "port": 30080}
       ]
   },
   "backend": {
