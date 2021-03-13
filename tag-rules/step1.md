@@ -21,3 +21,9 @@ We have created a simple tag rule. Every request that contains a header named `f
 Now save the new configuration:
 
 ![New Tag: Save](./assets/save-tag-rule.jpg)
+
+`curl https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/no/header`{{{execute}}
+
+`curl https://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/with/header -H "foo: bar"`{{{execute}}
+
+https://[[HOST_SUBDOMAIN]]-5601-[[KATACODA_HOST]].environments.katacoda.com/app/discover
