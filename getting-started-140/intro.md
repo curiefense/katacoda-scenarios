@@ -8,5 +8,6 @@
 * Grafana Dashboards
     * Traffic Overview Dashboard
     * Top Activities Dashboard
+    * Curiefense Overview
 
 See you at the finish line. 🏁

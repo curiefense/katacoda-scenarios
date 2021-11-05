@@ -11,9 +11,10 @@ The `docker-compose` deployment process will create Grafana visualizations for C
 
 > 👉 you may click **Skip** instead of changing the password.
 
-Curiefense comes with two dashboards out of the box: 
+Curiefense comes with three dashboards out of the box: 
 
 1. Traffic Overview
 1. Top Activities
+1. Curiefense Overview 🆕
 
 Lets explore what Traffic Overview can tell us.
