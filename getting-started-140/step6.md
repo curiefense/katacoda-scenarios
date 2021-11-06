@@ -16,6 +16,8 @@ Available Panels
 * Downstream Network Traffic
 * Downstream Members
 
-👉 [Launch Dashboard](https://[[HOST_SUBDOMAIN]]-30300-[[KATACODA_HOST]].environments.katacoda.com/d/MTGi3XFnk/curiefense-overview)
+👉 [Launch Dashboards](https://[[HOST_SUBDOMAIN]]-30300-[[KATACODA_HOST]].environments.katacoda.com/dashboards?layout=list)
+
+> Make sure to click "Curiefense Overview"
 
 ![Grafana Screenshot](./assets/grafana-curiefense-overview.jpg)
